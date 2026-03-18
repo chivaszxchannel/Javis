@@ -27,7 +27,7 @@ DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 client_gemini = genai.Client(api_key=GEN_API_KEY)
 chat = client_gemini.chats.create(
     model="gemini-2.5-flash",
-    config={"system_instruction": "คุณคือ JARVIS ผู้ช่วยส่วนตัวของ อา-ไฉ (A-cái) ผู้เชี่ยวชาญด้าน Forex และธุรกิจบ่อตกปลา"}
+    config={"system_instruction": "คุณคือ JARVIS ผู้ช่วยส่วนตัวของ ป๋าทศ ผู้เชี่ยวชาญด้าน การเขียน code และโปรแกรมเมอร์ และบริการธุรกิจการจัดการวางระบบต่้างๆในองกรค์"}
 )
 
 intents = discord.Intents.default()
